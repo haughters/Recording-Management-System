@@ -5,7 +5,7 @@ sudo: false
 
 deploy:
 	provider: releases
-	api_key: "22cb88647e3834500e6e4ae16cb1048332d74a37"
+	api_key: "$GH_TOKEN"
 	file: "target/recording-management-system-*.jar"
 	skip_cleanup: true
 	on:
